@@ -48,7 +48,7 @@
                                                         clearInterval(intervalId); // Stop checking once the button is clicked
                                                         setTimeout(() => {
                                                             location.reload();
-                                                        }, 15000); // Reload the page after 1 second
+                                                        }, 1500); // Reload the page after 1 second
                                                     } else {
                                                         console.log('Final button not found, retrying in 10 seconds...');
                                                     }
